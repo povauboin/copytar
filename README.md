@@ -6,8 +6,8 @@ Copy files using 'script' log file, when you cannot easily scp.
 ### Example usage:
 
 ```console
-m$ script 20150219_m_laurent.txt
-Script started, file is 20150219_m_laurent.txt
+m$ script 20150219_h2_laurent.txt
+Script started, file is 20150219_h2_laurent.txt
 m$ ssh h1
 h1$ ssh h2
 h2$ ls -l /bin/fgrep                                                                    
@@ -18,8 +18,8 @@ COPYTAR H4sIAOEz5lQAA+3ST0vDMBgG8JzzKR5rPFgYSbt1BUtBL+LRg1+gq+mWSydNhIHsuy8pouBB
 h2$ exit
 h1$ exit
 m$ exit
-Script done, file is 20150219_m_laurent.txt
-m$ ./copytar-decode.sh 20150219_m_laurent.txt
+Script done, file is 20150219_h2_laurent.txt
+m$ ./copytar-decode.sh 20150219_h2_laurent.txt
 COPYTAR archive found !
 bin/fgrep
 m$ ls -l bin/fgrep
